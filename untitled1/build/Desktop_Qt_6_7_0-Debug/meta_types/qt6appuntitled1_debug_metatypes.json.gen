@@ -1,0 +1,139 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ImageSignalSender",
+                "object": true,
+                "qualifiedClassName": "ImageSignalSender",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "imagePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setImageSignal",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "hideImageSignal",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showImageSignal",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "imagesignalsender.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "LabelHandler",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "labelText",
+                        "notify": "labelTextChanged",
+                        "read": "getLabelText",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setLabelText"
+                    }
+                ],
+                "qualifiedClassName": "LabelHandler",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "labelTextChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "labelhandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "TextFieldHandler",
+                "object": true,
+                "qualifiedClassName": "TextFieldHandler",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "text",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "receiveText",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "state",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "SetFieldState",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "GetFieldState",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "name": "GetPort",
+                        "returnType": "uint16_t"
+                    },
+                    {
+                        "access": "public",
+                        "name": "GetIpAdress",
+                        "returnType": "std::string"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "textfieldhandler.h",
+        "outputRevision": 68
+    }
+]

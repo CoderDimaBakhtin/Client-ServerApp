@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/untitled1/">
+    <file alias="Main.qml">/home/dmytro/untitled1/Main.qml</file>
+    <file alias="qml.qrc">/home/dmytro/untitled1/qml.qrc</file>
+    <file alias="../Downloads/download.png">/home/dmytro/untitled1/../Downloads/download.png</file>
+    <file alias="../Downloads/download.png">/home/dmytro/untitled1/../Downloads/download.png</file>
+    <file alias="mouseBoth.png">/home/dmytro/untitled1/mouseBoth.png</file>
+    <file alias="mouseLeft.png">/home/dmytro/untitled1/mouseLeft.png</file>
+    <file alias="mouseRight.png">/home/dmytro/untitled1/mouseRight.png</file>
+    <file alias="mouseStandart.png">/home/dmytro/untitled1/mouseStandart.png</file>
+  </qresource>
+</RCC>
+

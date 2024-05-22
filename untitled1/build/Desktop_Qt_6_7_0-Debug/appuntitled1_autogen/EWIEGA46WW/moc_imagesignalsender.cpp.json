@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "ImageSignalSender",
+            "object": true,
+            "qualifiedClassName": "ImageSignalSender",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "imagePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setImageSignal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "hideImageSignal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showImageSignal",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "imagesignalsender.h",
+    "outputRevision": 68
+}

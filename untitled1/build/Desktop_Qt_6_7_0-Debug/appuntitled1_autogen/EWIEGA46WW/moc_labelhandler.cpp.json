@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "LabelHandler",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "labelText",
+                    "notify": "labelTextChanged",
+                    "read": "getLabelText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setLabelText"
+                }
+            ],
+            "qualifiedClassName": "LabelHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "labelTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "labelhandler.h",
+    "outputRevision": 68
+}

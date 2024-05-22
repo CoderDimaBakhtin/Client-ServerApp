@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "className": "TextFieldHandler",
+            "object": true,
+            "qualifiedClassName": "TextFieldHandler",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "receiveText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "SetFieldState",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "GetFieldState",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "GetPort",
+                    "returnType": "uint16_t"
+                },
+                {
+                    "access": "public",
+                    "name": "GetIpAdress",
+                    "returnType": "std::string"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "textfieldhandler.h",
+    "outputRevision": 68
+}
