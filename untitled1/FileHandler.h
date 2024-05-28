@@ -8,7 +8,7 @@
 class FileHandler{
 private:
     std::ofstream fout;
-    bool file_opened = 0;
+    bool file_opened = 0; // not needed
 public:
     FileHandler(const std::string& name);
     void WriteLine(const std::string& line);

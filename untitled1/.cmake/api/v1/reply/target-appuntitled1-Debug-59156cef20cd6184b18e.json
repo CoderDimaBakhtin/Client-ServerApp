@@ -1,0 +1,780 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appuntitled1"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen"
+		],
+		"files" : 
+		[
+			"/home/maksym/Qt/6.7.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/maksym/Qt/6.7.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 869,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 575,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 776,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 392,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 647,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 2720,
+				"parent" : 11
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 541,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 3057,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 3082,
+				"parent" : 13
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 2882,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 3048,
+				"parent" : 13
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 590,
+				"parent" : 8
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 19
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 637,
+				"parent" : 8
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 2514,
+				"parent" : 11
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 2618,
+				"parent" : 11
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 1239,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 2666,
+				"parent" : 11
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 2749,
+				"parent" : 11
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 28
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 29
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 30
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g  "
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_autogen/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQml/6.7.0"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQml/6.7.0/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtCore/6.7.0"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtCore/6.7.0/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins/6.7.0"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins/6.7.0/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/maksym/Qt/6.7.0/gcc_64/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				9,
+				11,
+				13,
+				16,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "appuntitled1_automoc_json_extraction::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "appuntitled1_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appuntitled1_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appuntitled1::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/maksym/Qt/6.7.0/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6Quick.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6QmlModels.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6Qml.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6Network.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6OpenGL.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6Gui.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/maksym/Qt/6.7.0/gcc_64/lib/libQt6Core.so.6.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appuntitled1",
+	"nameOnDisk" : "appuntitled1",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files/Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6,
+				8,
+				9,
+				11,
+				13,
+				16,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				17
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				10,
+				12,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "appuntitled1_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"isGenerated" : true,
+			"path" : "meta_types/qt6appuntitled1_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 18,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "appuntitled1_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qrc_qmake_untitled1.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"path" : "Client.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "Client.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"path" : "imagesignalsender.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "imagesignalsender.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "Client_Connection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"path" : "Client_Connection.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "FileHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"path" : "FileHandler.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "labelhandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 23,
+			"path" : "labelhandler.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"path" : "textfieldhandler.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "textfieldhandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qmlcache/appuntitled1_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qmlcache/appuntitled1_Main_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qrc_appuntitled1_raw_qml_0.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "meta_types/qt6appuntitled1_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "appuntitled1_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qrc_qmake_untitled1.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qmlcache/appuntitled1_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : ".rcc/qrc_appuntitled1_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 10,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6qmlbuiltins_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/maksym/Qt/6.7.0/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

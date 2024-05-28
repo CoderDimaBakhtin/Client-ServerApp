@@ -35,11 +35,11 @@ Mouse_Handler::Mouse_Handler(){
 }
 
 std::string Mouse_Handler::GetCoordinates(){
-    std::string str = CommandToPipe("xdotool getmouselocation --shell");
+    std::string str = CommandToPipe("xdotool getmouselocation --shell"); // What if xdotool doesn't exist?
     std::string str2;
     int i = 0;
     while(str[i]!='S'){//We need to extract all information before some "moment"
-        if(str[i]=='\n'){
+        if(str[i]=='\n'){ // WHy it is not reworked?
             str2+=' ';
         }else{
             str2+=str[i];
@@ -50,7 +50,7 @@ std::string Mouse_Handler::GetCoordinates(){
 }
 
 std::string Mouse_Handler::GetRelativeCoordinates(){
-    return "xrel="+std::to_string(x)+" yrel="+std::to_string(y);
+    return "xrel="+std::to_string(x)+" yrel="+std::to_string(y); // Send raw data, let client format it
 }
 
 std::string Mouse_Handler::GetMouseButtonClick(){
@@ -63,7 +63,13 @@ std::string Mouse_Handler::GetMouseButtonClick(){
 
             x = data[1];
             y = data[2];
-            //
+
+
+            // if (left != Leftflag) {
+            //     Leftflag = left;
+            //     return GetCoordinates() + left ? " LMK(Left Mouse click)" : " LMU(Left Mouse UP)";
+            // }
+
             if(left==1 && Leftflag == 0){
                 Leftflag = 1;
                 return GetCoordinates()+" LMK(Left Mouse click)";

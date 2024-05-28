@@ -6,7 +6,7 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = Server
 EXT = .cpp
-SRCDIR = /home/dmytro/Desktop/Task2GL/Server
+SRCDIR = .
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############

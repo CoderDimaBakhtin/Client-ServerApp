@@ -1,7 +1,7 @@
 #include"FileHandler.h"
 
 FileHandler::FileHandler(const std::string& name){
-    for(int i = 0;i<10;i++){
+    for(int i = 0;i<10;i++){ // retry Count
         fout.open(name,std::ios::app);
         if (!fout.is_open()) {
             std::cout<<"\nOpen File failure \n";
@@ -21,5 +21,5 @@ bool FileHandler::IsFileOpened(){
 }
 
 FileHandler::~FileHandler(){
-    fout.close();
+    fout.close();// not necessary
 }

@@ -36,22 +36,41 @@ void Server_Connection::Accept(){
     }
 }
 
-std::string Server_Connection::Read(){
-    if(Client_Connected){
-        ssize_t valread = read(new_socket, buffer, sizeof(buffer) - 1);
-        if (valread == -1) {//Reading Error
-            std::cout<<"\nReading Error\n";
-            return "";
-        } else if (valread == 0) {
-            Client_Connected = 0;
-            std::cout<<"\nConnection closed by the Client\n";
-            
-            return "";
-        }
-        std::string str(buffer);
-        return str;
+std::string Server_Connection::Read(){ // get rid of nesting
+    if (!Client_Connected)
+        return "";
+
+    ssize_t valread = read(new_socket, buffer, sizeof(buffer) - 1);
+    if (valread == -1) {//Reading Error
+        std::cout<<"\nReading Error\n";
+        return "";
     }
-    return "";
+
+    if (valread == 0) {
+        Client_Connected = 0;
+        std::cout<<"\nConnection closed by the Client\n";
+
+        return "";
+    }
+
+    std::string str(buffer, valread); // provide size of the buffer
+    return str;
+
+    // if(Client_Connected){
+    //     ssize_t valread = read(new_socket, buffer, sizeof(buffer) - 1);
+    //     if (valread == -1) {//Reading Error
+    //         std::cout<<"\nReading Error\n";
+    //         return "";
+    //     } else if (valread == 0) {
+    //         Client_Connected = 0;
+    //         std::cout<<"\nConnection closed by the Client\n";
+            
+    //         return "";
+    //     }
+    //     std::string str(buffer); // provide size of the buffer
+    //     return str;
+    // }
+    // return "";
 }
 
 void Server_Connection::Send(const std::string& message){

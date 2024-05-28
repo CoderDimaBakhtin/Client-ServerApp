@@ -8,10 +8,10 @@
 class TextFieldHandler : public QObject{
     Q_OBJECT
 public:
-    explicit TextFieldHandler(QObject *parent = nullptr){}
+    explicit TextFieldHandler(QObject *parent = nullptr){} // = default
 public slots:
     void receiveText(const QString &text);
-    void SetFieldState(bool state);
+    void SetFieldState(bool state); // Qproperty
     bool GetFieldState();
     uint16_t GetPort();
     std::string GetIpAdress();

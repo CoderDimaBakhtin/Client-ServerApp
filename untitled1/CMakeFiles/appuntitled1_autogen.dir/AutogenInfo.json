@@ -1,0 +1,164 @@
+{
+	"BUILD_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1",
+	"HEADERS" : 
+	[
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/Client.h",
+			"MU",
+			"EWIEGA46WW/moc_Client.cpp"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/Client_Connection.h",
+			"MU",
+			"EWIEGA46WW/moc_Client_Connection.cpp"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/FileHandler.h",
+			"MU",
+			"EWIEGA46WW/moc_FileHandler.cpp"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/imagesignalsender.h",
+			"MU",
+			"EWIEGA46WW/moc_imagesignalsender.cpp"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/labelhandler.h",
+			"MU",
+			"EWIEGA46WW/moc_labelhandler.cpp"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/textfieldhandler.h",
+			"MU",
+			"EWIEGA46WW/moc_textfieldhandler.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_QMLBUILTINS_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQml/6.7.0",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQml/6.7.0/QtQml",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtCore/6.7.0",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtCore/6.7.0/QtCore",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtCore",
+		"/home/maksym/Qt/6.7.0/gcc_64/include",
+		"/home/maksym/Qt/6.7.0/gcc_64/mkspecs/linux-g++",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins/6.7.0",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins/6.7.0/QtQmlBuiltins",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlBuiltins",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQml",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlIntegration",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtNetwork",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQuick",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtGui",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtQmlModels",
+		"/home/maksym/Qt/6.7.0/gcc_64/include/QtOpenGL",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_GADGET_EXPORT", "Q_ENUM_NS" ],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qmlcache/appuntitled1_Main_qml.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qrc_appuntitled1_raw_qml_0.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qrc_qmake_untitled1.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/CMakeFiles/appuntitled1_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/maksym/Qt/6.7.0/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"SETTINGS_FILE" : "/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/CMakeFiles/appuntitled1_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/Client.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/Client_Connection.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/FileHandler.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/imagesignalsender.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/labelhandler.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/main.cpp",
+			"MU"
+		],
+		[
+			"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/textfieldhandler.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qmlcache/appuntitled1_Main_qml.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qrc_appuntitled1_raw_qml_0.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/.rcc/qrc_qmake_untitled1.cpp",
+		"/home/maksym/projects/mentorship/Basecamp2024/task2/Client-ServerApp/untitled1/appuntitled1_qmltyperegistrations.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

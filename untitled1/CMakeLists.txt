@@ -31,8 +31,6 @@ qt_add_qml_module(appuntitled1
         SOURCES
         SOURCES labelhandler.cpp
         SOURCES labelhandler.h
-        RESOURCES ../Downloads/download.png
-        RESOURCES ../Downloads/download.png
         RESOURCES
         RESOURCES
         SOURCES textfieldhandler.h textfieldhandler.cpp

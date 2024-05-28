@@ -49,8 +49,11 @@ int main(int argc, char *argv[]){
         QMetaObject::invokeMethod(engine.rootObjects().first(), "showImage", Qt::AutoConnection);
     });
 
+    // MainLogic.start();
+
+    // not sychronized labelHandler, textfield ...
     std::thread LogicThread(MainLogic,std::ref(imageSignalSender),std::ref(labelhandler),std::ref(textfield));
-    LogicThread.detach();
+    LogicThread.detach(); // Should be logic of client
 
     return app.exec();
 }

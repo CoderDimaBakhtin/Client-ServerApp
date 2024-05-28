@@ -10,13 +10,14 @@
 class Client{
 private:
     std::shared_ptr<Client_connection> connection;
-    std::shared_ptr<FileHandler> file;
+    std::shared_ptr<FileHandler> file; // why shared_ptr?
     bool End_Program = 0;
     bool flag_standart = true;
     bool flag_left= true;
     bool flag_right= true;
 private:
     enum class Buttonstate{
+        // Why such numbers used?
         LeftMouseClick =11,
         RightMouseClick =21,
         LeftMouseUp =12,
